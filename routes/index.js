@@ -8,6 +8,7 @@ router.get('/', function(req, res) {
 
 router.get('/olf/:olf', function(req, res) {
 	res.send('Olfen golfen köper Rolfen ' + req.params.olf);
+
 });
 
 module.exports = router;
